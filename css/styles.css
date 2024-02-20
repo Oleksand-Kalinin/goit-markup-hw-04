@@ -110,7 +110,12 @@ section {
     color: #404BBF;
 }
 
-
+.navigation-menu-list-item-link:active::after {
+    display: block;
+    content: "";
+    border: 4px solid #404bbf;
+    border-radius: 2px;
+}
 
 /* .our-portfolio:target {
     background-color: #31d0aa;
