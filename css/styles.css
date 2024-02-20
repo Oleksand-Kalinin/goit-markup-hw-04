@@ -102,12 +102,15 @@ section {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-menu-list-item-link:hover,
 .navigation-menu-list-item-link:focus {
     color: #404BBF;
 }
+
+
 
 /* .our-portfolio:target {
     background-color: #31d0aa;
@@ -128,6 +131,7 @@ section {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-list-item-link:hover,
@@ -180,6 +184,7 @@ section {
     border: none;
     border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-service:hover,
@@ -296,6 +301,7 @@ section {
     padding: 12px;
     background-color: #4d5ae5;
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-team-list-contact-link:hover,
@@ -343,7 +349,15 @@ section {
 }
 
 .overlay-our-porfolio {
-    background-color: #8e8f99;
+    background-color: #4d5ae5;
+    padding-top: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+
     position: absolute;
     top: 0;
     left: 0;
@@ -353,8 +367,7 @@ section {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-portfolio-list-item:hover .overlay-our-porfolio,
-.our-portfolio-list-item:focus .overlay-our-porfolio {
+.our-portfolio-list-item:hover .overlay-our-porfolio {
     transform: translateY(0);
 }
 
@@ -434,6 +447,7 @@ section {
     padding: 8px;
     background-color: #4d5ae5;
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-contact-link:hover,
