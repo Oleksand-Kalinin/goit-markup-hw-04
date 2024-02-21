@@ -115,6 +115,10 @@ section {
     color: #404BBF;
 }
 
+.active-nav-link {
+    color: #404bbf;
+}
+
 .active-nav-link::after {
     content: '';
     width: 100%;
